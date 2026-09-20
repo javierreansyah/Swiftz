@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
 
-export default function TrendingLegacyRedirect() {
+export default function MovieTrendingRedirectPage() {
   redirect("/movie/trending-today");
 }
